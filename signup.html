@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <script src="https://kit.fontawesome.com/396acfc6e1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="interior">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.PNG" alt="Logo"></a>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="productos.html">Productos</a></li>
+              <li class="submenu">
+                <a href="">Encuestas</a>
+                <ul class="hijos">
+                  <li><a href="encuesta1.html">Encuesta 1</a></li>
+                  <li><a href="encuesta2.html">Encuesta 2</a></li>
+                </ul>
+              </li>
+              <li><a href="signup.html">Registrarse</a></li>
+              <li><a href="signin.html">Iniciar sesión</a></li>
+            </ul>
+          </nav>
+        </div>
+        </header>
+    <div class="formularios">
+        <form action="#" method="post">
+            <h2>Registrate para tener tu cuenta</h2>
+            <div class="form-group">               
+                <input type="text" id="nombre" placeholder="Nombre completo">
+            </div>
+            <div class="form-group">
+                <select id="genero" name="genero" >
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="email">
+            </div>
+            <div class="form-group">
+                <input type="password" id="contraseña"  placeholder="Contraseña">
+            </div>
+            <div class="form-group">
+                <input type="password" id="confirmar-contraseña" placeholder="confirmar contraseña">
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="aceptar-terminos" name="aceptar-terminos" required>
+                <label for="aceptar-terminos">Acepto los terminos y condiciones</label>
+            </div>
+            <div class="form-group">
+                <button type="submit">Registrarse</button>
+                <button type="reset">Borrar</button>
+            </div>
+        </form>
+    </div>
+    <footer class="site-footer">
+      <div class="container">
+          <div class="footer-logo">
+              <img src="img/logo.PNG" alt="Logo de la empresa">
+          </div>
+          <div class="footer-contact">
+              <p><strong>Contacto:</strong> info@empresa.com</p>
+              <p><strong>Teléfono:</strong> +123456789</p>
+          </div>
+          <div class="footer-social">
+              <a href="https://www.facebook.com/flogoalimentossaludables?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook-f"></i>FLOGO ALIMENTOS SALUDABLES</a>
+              <a href="https://www.instagram.com/flogo.as/" target="_blank"> <i class="fa-brands fa-instagram"></i>FLOGO.AS</a>
+          </div>
+      </div>
+  </footer>
+    
+    
+</body>
+</html>
