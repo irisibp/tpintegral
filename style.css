@@ -413,7 +413,6 @@ aside {
   align-items: center;
 }
 
-/* Estilos específicos del footer */
 .site-footer {
   background-color: rgb(117, 64, 33);
   color: rgb(255, 255, 229);
@@ -424,8 +423,7 @@ aside {
 
 .footer-logo img {
   width: 100px;
-  /* Ajustar según el tamaño de tu logo */
-  height: auto;
+   height: auto;
 }
 
 .footer-contact {
@@ -451,12 +449,3 @@ aside {
   transform: scale(1.1);
 }
 
-/* 
-rgb(249, 117, 9)  naranja oscuro
-rgb(255, 137, 5)    nara medio
-rgb(241, 191, 96)    nara claro
-rgb(89, 125, 37)    verde oscuro
-rgb(126, 176, 51)      verde claro
-rgb(255, 255, 229) crudo
-rgb(117, 64, 33)       marron
- */
